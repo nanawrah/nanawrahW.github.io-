@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nawrah wahyuni</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+
+        .tab{
+            margin-top: 10%;
+
+        }
+
+        img{
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            border: 0.2rem solid brown;
+    
+        }
+
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .child {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="wrapper">
+    <div class="child">
+    <img src="foto.jpeg" alt="me">
+    <h2>Nawrah wahyuni - 32211476</h2>   
+    <button class="tab" onclick="hellodunia()">Tabel sederhana</button>
+    <button class="tab" onclick="istilahkata()">Tabel Css</button>
+    <button class="tab" onclick="hoohtenan()">Tabel JQuery</button>
+    </div>    
+</div>
+<script>
+    function hellodunia() {
+        const lanjut = confirm("ingin membuka tabel sederhana?")
+        if (lanjut) {
+            return document.location.href = "D:pemograman web/index.html"
+        }
+        alert("membatalkan membuka tabel")
+    }
+</script> 
+<script>
+    function istilahkata() {
+      const yalanjut = confirm("Ingin membuka tabel CSS?")
+      if (yalanjut) {
+        return document.location.href = "css.html"
+    }
+        alert("membatalkan membuka tabel")
+    }
+
+ </script>
+ <script>
+    function hoohtenan() {
+        const lanjut = confirm("Ingin membuka tabel Jquery?")
+        if (lanjut) {
+            return document.location.href =""
+        }
+        alert("membatalkan membuka tabel")
+    }
+ </script>
+ 
+</body>
+</html>
