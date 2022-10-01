@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('foto.jpeg');
+}
+
+.bungkus-nvgs{
+    max-width: 1200px;
+    margin: 0 auto;
+        color: black;
+        font-size: 23px;
+        font-weight: bold;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.nvgs{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    z-index: 99;
+
+}
+
+.nvgs .bungkus-nvgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.nvgs ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.nvgs a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nvgs a:hover{
+    background-color: rgba(165, 42, 42, 0.664);
+}
+
+
+.nvgs .on{
+    font-weight: bold;
+}
+
+.isi{
+    padding: 30px;
+   /* display: none; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgba(19, 71, 105, 0.596);
+    margin-left: 10px;
+    text-align: justify;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(208, 100%, 97%);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.WA{
+    color: green;
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.ig{
+    color: rgba(155, 12, 119, 0.856);
+    background-color: aliceblue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.link_Github {
+   color: rgb(128, 10, 59);
+   background-color: aliceblue; 
+   font-size: 15px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
