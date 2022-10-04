@@ -1,0 +1,267 @@
+body{
+	background-color: whitesmoke;
+}
+
+img{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	cursor: pointer;
+	width: 150px;
+	border-radius: 50%;
+	box-shadow: 2px 2px 4px palevioletred;
+	padding: 3px;
+	transition: 0.5s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+
+h3{
+	margin: 20px;
+	text-align: center;
+}
+
+.teks{
+	transition: 0.5s;
+	text-align: center;
+	margin:0 0 3px;
+}
+
+
+.teks:hover {
+		letter-spacing: 2px;
+	}
+
+p{
+	margin: 45px 0 5px;
+	text-align: center;
+	text-align: justify;
+	
+}
+ .tbl{
+	font-weight: bold;
+ }
+
+
+blockquote{
+	margin: 20px 10px 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	transition: 0.5s;
+}
+
+
+
+.hallo{
+	font-family: monospace;
+    	position: relative;
+    	top: 50%;  
+    	width: 14em;
+    	margin: 0 auto;
+		border-right: 1px solid rgba(255,255,255,.75);
+    	text-align: center;
+    	white-space: nowrap;
+    	overflow: hidden;
+    	transform: translateY(-50%);    
+}
+
+.ketik{
+	animation: typewriter 3s steps(33) 0.5s 1 normal both,
+				  blinkTextCursor 1000ms steps(33) infinite normal;
+}
+@keyframes typewriter{
+  	from{width: 0;}
+  	to{width: 14em;}
+}
+@keyframes blinkTextCursor{
+  	from{border-right-color: black;}
+  	to{border-right-color: transparent;}
+}
+
+.first{
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+.heading{
+	background-color: rgba(175, 238, 238, 0.562) ;
+	padding: 5px 10px 20px;
+	text-align: center;
+	border: 2px solid  rgba(128, 128, 128, 0.589);
+	border-radius: 5px 5px 0 0;
+    box-shadow: 0px 8px 16px 0px grey;
+}
+
+.navigation{
+    	background-color: thistle;
+    	padding: 17px 0;
+		box-shadow: 0px 8px 16px 0px grey;
+		border-left: 2px solid rgba(128, 128, 128, 0.589);
+	border-right: 2px solid rgba(128, 128, 128, 0.589);
+    	
+}
+
+.bar{
+	margin: 0;
+	padding: 17Px ;
+    	color: black ;
+    	border: none;
+    	border-radius: 2px;
+    	cursor: pointer;
+    	font-size: 13px;
+    	font-weight: bold;
+    	transition: 0.5s;
+}
+
+.bar:hover{
+	background-color:   rgba(159, 132, 177, 0.842);
+}
+
+.aktif{
+	background-color: rgba(159, 132, 177, 0.842);
+}
+
+.bar_home{
+	background-color:rgba(175, 238, 238, 0.562) ;
+	padding: 22px;
+	border-left: 2px solid rgba(128, 128, 128, 0.589);
+	border-right: 2px solid rgba(128, 128, 128, 0.589);
+   	box-shadow: 0px 8px 16px 0px grey;
+}
+
+.fill{
+	display: none;
+	background-color: rgba(175, 238, 238, 0.562) ;
+	padding: 22px;
+	border-left: 2px solid rgba(128, 128, 128, 0.589);
+	border-right: 2px solid rgba(128, 128, 128, 0.589);
+   	box-shadow: 0px 8px 16px 0px grey;
+}
+
+.garis{
+	width: auto;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid black;
+	transition-duration: 0.7s;
+	margin: 20px 0 25px;
+}
+.garis_1{
+	width: auto;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid black;
+	transition-duration: 0.7s;
+	margin: 70px 0 5px;
+}
+
+.garis-tengah{
+	width: 35%;
+	display: flex;
+	border-bottom: 2px solid gray;
+	margin: auto;
+}
+.fillnya {
+    padding: 30px;
+    color: black;
+    text-align: left;
+    box-shadow: 5px 5px 3px rgba(63, 215, 223, 0.63);
+    border-radius: 5px;
+    z-index: 1;
+}
+.fillnya a{
+	color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.fillnya a:hover {
+	background-color: rgba(39, 193, 183, 0.664);
+	color: white;
+	box-shadow: 2px 2px 3px grey;
+}
+.list{
+	margin-bottom: 20px;
+}
+
+.bawah{
+	background-color:rgb(177, 142, 177);
+	text-align: center;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+	color: black;
+	padding: 9px;
+	border-radius: 0 0 5px 5px;
+	font-weight: bold;
+	border-left: 2px solid rgba(128, 128, 128, 0.589);
+	border-right: 2px solid rgba(128, 128, 128, 0.589);
+   	box-shadow: 0px 8px 16px 0px grey;
+    	
+}
+
+.tombol_kirim{
+	background-color: rgba(46, 139, 86, 0.555);
+	color: black;
+	cursor: pointer;
+	min-width: 30px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: none;
+	margin-top: 10px;
+
+}
+.tombol_tengah {
+    text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #2C3333;
+    align-items: center;
+}
+
+.sosial-media {
+    width: 10px;
+    height: 10px;
+}
+.pembungkus-catatan-kaki {
+    margin-bottom: 28px;
+}
+
+ .foto-sosmed {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    padding: 3px;
+    background: white;
+    margin: 15px;
+    transition: 0.2s;
+    opacity: 90%;
+    width: 1cm;
+    height: 1cm;
+    object-fit: cover;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 800px){
+	.first{
+		width: 100%;
+	}
+}
